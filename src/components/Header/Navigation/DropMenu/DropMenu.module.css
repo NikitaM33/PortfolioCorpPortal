@@ -1,0 +1,100 @@
+.menu{
+    display: flex;
+    justify-content: flex-end;
+    transition: 0.5s;
+}
+
+.menu li{
+    display: grid;
+    min-width: 150px;
+    margin: 0 1.5em 0 0em;
+    /* margin-right: 3em; */
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.menu li a{
+    display: block;
+    /* margin-top: 0.2em; */
+    padding: 1em;
+    font-size: 1rem;
+    font-weight: 300;
+    text-decoration: none;
+    color: #b1a374;
+    border-radius: 4px;
+    transition: .3s ease;
+}
+
+.menu li a:hover{
+    color: #FFBB2E;
+    /* background: #333; */
+    /* padding: 10px 0 10px 20px; */
+}
+
+.menu li a.active{
+    color: #FFBB2E;
+}
+
+.menu li:last-child a{
+    border-radius: 4px 4px 10px 10px;
+}
+
+/* Выпадающее меню */
+
+.menuItem{
+    position: relative;
+}
+
+.menuDrop{
+    position: absolute;
+    top: -9999em;
+    border-top: 24px solid transparent;
+    border-radius: 4px;
+    opacity: 0;
+    transition: .5s opacity;
+}
+
+.menuDrop:first-child{
+    margin-left: -5em;
+}
+
+.menuDrop li{
+    margin-top: 3px;
+    border-radius: 4px;
+    background: radial-gradient(at top, rgb(28, 58, 73), #11141b);
+}
+
+.menuItem:hover .menuDrop{
+    opacity: 1;
+    top: 80%; /* 80% */
+    left: 1em;
+    right: 1em; 
+}
+
+/* ============================ */
+
+.dropMenu{
+    position: absolute;
+    top: -9999em;
+    border-top: 6px solid transparent;
+    border-radius: 4px;
+    opacity: 0;
+    transition: 0.5s opacity;
+}
+
+.dropMenu:first-child{
+    margin-left: -5em;
+}
+
+.dropMenu li{
+    margin-top: 3px;
+    border-radius: 4px;
+    background: radial-gradient(at top, rgb(28, 58, 73), #11141b);
+}
+
+.menuItem:hover .dropMenu{
+    opacity: 1;
+    top: 80%;
+    left: 1em;
+    right: 1em; 
+}

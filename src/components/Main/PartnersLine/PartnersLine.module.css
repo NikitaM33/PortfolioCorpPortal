@@ -1,0 +1,111 @@
+.PartnersLineWrapper{
+    position: absolute;
+    display: grid;
+    grid-template-columns: 19% 19% 19% 19% 19% 5%;
+    grid-template-rows: 100%;
+    width: 100%; /*тут было 75%*/
+    margin-top: -2em;
+    padding: 1em 2em 1em 2em;
+    font-size: 2.3em;
+    font-weight: 700;
+    text-align: center;
+    background: radial-gradient(at top, rgb(28, 58, 73), #11141b);
+    border-top: 5px solid #FFBB2E;
+    box-shadow: 0 5px 20px rgb(148, 94, 0);
+}
+
+.PartnersLineWrapper:before{
+    position: absolute;
+    content: '';
+    top: -5px;
+    right: 0;
+    width: 100%;
+    height: 5px;
+    background: linear-gradient(to left, rgb(185, 117, 0), #FFBB2E);
+    transition: 0.3s;
+}
+
+.PartnersLineWrapper:hover:before{
+    width: 0%;
+}
+
+.PartnersLineWrapper a{
+    margin-top: 0.3em;
+    font-family: 'Pacifico', cursive;
+    font-size: 2.3rem;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.PartnersLineWrapper a:hover{
+    color: #FFBB2E;
+}
+
+/* Кнопка============================== */
+
+.batn{
+    margin-top: -0.1em;
+    margin-left: 100%;
+    animation: bouncing 2.5s infinite;
+}
+
+.batn a{
+    position: relative;
+    display: block;
+    width: 2.2em;
+    height: 2.2em;
+    margin-left: 0.8em;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 50%;
+    background: linear-gradient(to left, rgb(185, 117, 0), #FFBB2E);
+    box-shadow: 10px 10px 50px rgb(148, 94, 0);
+}
+
+.batn a:hover{
+    animation: bouncing 0.5s infinite;
+}
+
+.batn a:hover::before,
+.batn a:hover::after{
+    content: '';
+    top: -2em;
+    right: -2em;
+    bottom: -2em;
+    left: -2em;
+    border: 5px solid rgb(148, 94, 0);
+    box-shadow: 0 0 20px rgb(148, 94, 0);
+    border-radius: 50%;
+    position: absolute;
+    animation: pulse 2s linear infinite;
+    opacity: 0;
+}
+
+.batn a:hover::after{
+    animation-delay: 0.5s;
+}
+
+.iconStyle {
+    margin: 18% auto;
+    font-size: 3.1rem;   
+}
+
+@keyframes bouncing{
+    0%, 100%{transform: translateY(0em);}
+    50%{transform: translateY(-0.3em);}
+}
+
+@keyframes pulse{
+    0%{
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        transform: scale(1.2);
+        opacity: 0;
+    }
+}

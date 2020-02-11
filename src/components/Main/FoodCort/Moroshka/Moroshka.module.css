@@ -1,0 +1,96 @@
+.moroshka{
+    /* outline: 2px solid red; */
+    display: grid;
+    display: -ms-grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+    -ms-grid-columns: 50% 50%;
+    -ms-grid-rows: 100%;
+    margin-top: 3em;
+}
+
+.moroshkaImg{
+    -ms-grid-column: 2;
+    -ms-grid-row: 2;
+}
+
+.moroshka .img1{
+    width: 100%;
+    height: auto;
+    box-shadow: 0 10px 20px rgb(13, 38, 51);
+}
+
+.moroshka .img2 {
+    display: none;
+}
+
+.moroshkaDescription{
+    -ms-grid-column: 1;
+    -ms-grid-row: 2;
+    padding: 3em;
+}
+
+.moroshkaDescription h4{
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: rgb(38, 68, 138);
+}
+
+.moroshkaDescription b{
+    font-weight: 700;
+}
+
+.moroshkaDescription h2{
+    font-size: 2rem;
+    color: #FEA507;
+}
+
+.moroshkaDescription p{
+    font-size: 1.1rem;
+    font-weight: 300;
+    line-height: 1.8rem;
+    color: #7A7A82;
+}
+
+.moroshkaDescription .description{
+    color: #333333;
+}
+
+@media(max-width: 1100px) {
+    .moroshka {
+        grid-template-columns: 100%;
+        grid-template-rows: 35% 65%;
+        margin-top: 3em;
+    }
+
+    .moroshka .img1{
+        display: none;
+    }
+
+    .moroshka .img2 {
+        display: block;
+        width: 100%;
+    }
+}
+
+@media(max-width: 1000px) {
+    .moroshka {
+        grid-template-rows: 40% 60%;
+        margin-top: 1em;
+    }
+}
+
+@media(max-width: 900px) {
+    .moroshka {
+        grid-template-rows: 45% 55%;
+        /* margin-bottom: 8em; */
+    }
+}
+
+@media(max-width: 650px) {
+    .moroshka {
+        grid-template-rows: 55% 45%;
+        /* margin-bottom: 3em; */
+    }
+}

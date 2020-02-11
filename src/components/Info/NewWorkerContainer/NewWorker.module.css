@@ -1,0 +1,112 @@
+.wrapper{
+    display: grid;
+        display: -ms-grid;
+    grid-template-columns: 26% 74%;
+    grid-template-rows: 100%;
+        -ms-grid-columns: 26% 74%;
+        -ms-grid-rows: 100%;
+    /* margin-top: 4em; */
+    padding: 2.5em 2em 2em 0em;
+    background: rgba(254, 163, 7, 0.027);
+}
+
+.workerWraper{
+    width: 30%;
+    text-align: center;
+    margin: 3em 2em;
+}
+
+.workerWraper h5{
+    margin-bottom: 1em;
+    color: rgb(38, 68, 138);
+}
+
+.workerWraper p{
+    color: #333;
+}
+
+.workerWraper img{
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+.introCard{
+    display: flex;
+}
+
+/* ========================== Квадрат с заголовком "Нове сотрудники" ===================== */
+.orangeSquare{
+    display: table;
+    position: relative;
+    width: 24em;
+    height: fit-content;
+    margin-top: 0.2em;
+    margin-left: 0;
+    padding: 2em;
+    color: #fff;
+    background: radial-gradient(at top, rgb(28, 58, 73), #11141b);
+    box-shadow: 15px 15px 10px #171B25;
+    border-top: 5px solid #FEA507;
+    border-radius: 0 0 4px 4px;
+    transition: 0.3s;
+}
+
+.orangeSquare:before{
+    position: absolute;
+    content: '';
+    top: -4px;
+    right: 0px;
+    width: 100%;
+    height: 5px;
+    background: linear-gradient(to left, rgb(185, 117, 0), #FFBB2E);
+    transition: 0.3s;
+}
+
+.orangeSquare:hover:before{
+    width: 0%;
+}
+
+.orangeSquare h1{
+    margin-top: 0em;
+    font-size: 3.4rem;
+    line-height: 3.8rem;
+}
+
+.orangeSquare p{
+    font-size: 1.1rem;
+    font-weight: 300;
+    line-height: 1.7rem;
+}
+
+@media(max-width: 1650px) {
+    .orangeSquare {
+        width: 22em;
+    }
+}
+
+@media(max-width: 1450px) {
+    .wrapper {
+        grid-template-columns: 30% 70%;
+            -ms-grid-columns: 30% 70%;
+    }
+}
+
+@media(max-width: 1250px) {
+    .wrapper {
+        grid-template-columns: 40% 60%;
+            -ms-grid-columns: 40% 60%;
+    }
+}
+
+@media(max-width: 1000px) {
+    .wrapper {
+        grid-template-columns: 100%;
+        grid-template-rows: auto;
+            -ms-grid-columns: 100%;
+            -ms-grid-rows: auto;
+    }
+
+    .orangeSquare {
+        width: 24em;
+    }
+}

@@ -1,0 +1,16 @@
+.announsmentsPageWrapper{
+    display: grid;
+    grid-template-rows: 11% 15% 1fr;
+    grid-template-columns: auto;
+    height: 100%;
+}
+
+.headerUsersAnnouns{
+    margin-top: 5em;
+    padding: 2em 3em 3em 3em;
+    background: rgba(254, 163, 7, 0.027);
+}
+
+.headerUsersAnnouns h1{
+    color: #FEA507;
+}

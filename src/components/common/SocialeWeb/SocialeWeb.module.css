@@ -1,0 +1,22 @@
+.socialeContainer {
+    display: flex;
+    margin-left: 8em;
+}
+
+.socialeContainer :first-child {
+    margin-left: 0em;
+}
+
+.socialeWeb {
+    width: 25px;
+    margin-left: 1em;
+}
+
+.socialeWeb a {
+    fill: #aeaeae9f;
+    transition: .3s;
+}
+
+.socialeWeb a:hover {
+    fill: #FFBB2E;
+}

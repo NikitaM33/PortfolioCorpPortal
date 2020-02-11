@@ -1,0 +1,46 @@
+.welcomeBtn{
+    display: flex;
+    margin-top: 3.5em;
+    margin-left: 2em;
+}
+
+.welcomeBtn .btn{
+    margin-right: 0.8em;
+    /* padding: 12px 37px; */
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    /* такой размер должен быть */
+    width: 173px;
+    background: radial-gradient(at top, rgb(43, 116, 155), rgb(38, 68, 138));
+    border-radius: 50px;
+    border: none;
+    box-shadow: 0 0 40px rgb(13, 38, 51);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn a{
+    display: block;
+    /* width: 206px; */
+    padding: 12px 0px;
+    font-weight: 400;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    border-radius: 50px;
+}
+
+.btn a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.welcomeBtn .btn:hover{
+    box-shadow: 10px 10px 20px rgb(13, 38, 51);
+}
+
+@media(max-width: 1150px) {
+    .welcomeBtn .btn {
+        margin: 0 auto;
+    }
+}

@@ -1,0 +1,54 @@
+.statisticWrapper{
+    /* grid-area: clients; */
+    width: 57%;
+    height: fit-content;
+    margin: 2em;
+    padding: 2em;
+    text-align: center;
+    background: rgba(0,0,0,.5);
+    border-radius: 10px;
+}
+
+.statisticWrapper h2{
+    font-size: 2rem;
+    font-weight: 400;
+    color: #fff;
+    margin: 0em 0em;
+}
+
+.statisticWrapper h2 span{
+    font-size: 4rem;
+    color: #FEA507;
+}
+
+.statisticWrapper h3{
+    font-weight: 300;
+    margin-top: 1em;
+    color: #fff; 
+}
+
+@media(max-width: 1300px) {
+    .statisticWrapper{
+        width: 81%;
+    }
+    
+    .statisticWrapper h2 span{
+        font-size: 5rem;
+        font-weight: bold;
+        color: #FEA507;
+    }
+
+    .statisticWrapper h3 {
+        display: none;
+    }
+}
+
+@media(max-width: 1150px) {
+    .statisticWrapper{
+        grid-area: statInfo;
+    }
+
+    .statisticWrapper h3 {
+        display: block;
+    }
+}

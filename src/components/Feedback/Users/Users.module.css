@@ -1,0 +1,21 @@
+.feedbackWrapper{
+    display: grid;
+}
+
+.feedbackWrapper{
+    padding-top: 6.2em;
+}
+
+.wrapper{
+    padding: 9.2em 3em;
+}
+
+.photo{
+    width: 90px;
+    height: 100px;
+}
+
+.selectedPage{
+    font-weight: bold;
+    text-decoration: underline;
+}

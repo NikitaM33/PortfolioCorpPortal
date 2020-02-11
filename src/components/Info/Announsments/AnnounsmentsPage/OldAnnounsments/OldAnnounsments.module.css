@@ -1,0 +1,7 @@
+.oldAnnounsments{
+    grid-area: oldAnnouns;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: auto;
+    padding: 2em 2em 3em 2em;
+}

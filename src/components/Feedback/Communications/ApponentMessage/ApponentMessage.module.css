@@ -1,0 +1,25 @@
+.messageBlock{
+    grid-area: apponent;
+    display: grid;
+    grid-template-areas: 
+    "imgElement nameElement";
+    grid-template-columns: 20% 80%;
+    grid-template-rows: auto;
+    justify-items: start;
+    padding: 2em;
+    margin: 0 39em 0 0em;
+}
+
+.imgElement{
+    grid-area: imgElement;
+    border: 2px solid #0D2633;
+    width: 5em;
+    height: 5em;
+    border-radius: 50%;
+}
+
+.imgElement img{
+    width: 5em;
+    height: 5em;
+    border-radius: 50%;
+}

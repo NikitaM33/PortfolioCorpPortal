@@ -1,0 +1,22 @@
+.wrapper{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+    padding: 9em 0em 0em 3em;
+    background: rgba(254, 163, 7, 0.027);
+}
+
+.headlineContainer h2{
+    color: #FEA507;
+}
+
+.imageWrapper{
+    margin-top: -4em;
+    overflow: hidden;
+    height: 14em;
+    
+}
+
+.imageWrapper img{
+    width: 100%;
+}

@@ -1,0 +1,10 @@
+.nav{
+    grid-column-start: 3;
+    -ms-grid-column: 3;
+}
+
+.nav ul{
+    margin: 0 0 0 -1em;
+    padding: 0;
+    list-style: none;
+}

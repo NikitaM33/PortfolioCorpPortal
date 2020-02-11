@@ -1,0 +1,23 @@
+.mapDescription{
+    width: 85%;
+}
+
+.mapDescription h1{
+    grid-area: headline;
+    font-size: 4rem;
+    font-weight: bold;
+    text-align: start;
+    color: #FEA507;
+    margin-left: 0.5em;
+}
+
+.mapDescription h1 span{
+    color: #fff;
+}
+
+@media(max-width: 1150px) {
+    .mapDescription {
+        grid-area: headerText;
+        -ms-grid-row: 1;
+    }
+}

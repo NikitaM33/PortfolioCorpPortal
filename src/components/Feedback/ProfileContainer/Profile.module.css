@@ -1,0 +1,12 @@
+.wrapper{
+    padding: 8em 3em;
+}
+
+.profileHeader{
+    display: flex;
+    justify-content: space-between;
+}
+
+.loginBlock{
+    display: block;
+}

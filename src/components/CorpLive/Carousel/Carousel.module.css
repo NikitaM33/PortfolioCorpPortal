@@ -1,0 +1,58 @@
+.container {
+    /* outline: 1px solid red; */
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    text-align: center;
+    margin: 0;
+    position: relative;
+}
+
+.carouselWrapper {
+    display: flex;
+    margin: 0 auto;
+}
+
+.imagesSlider {
+    height: 15em;
+    overflow: hidden;
+}
+
+.imagesSlider img {
+    width: 100%;
+    height: 15em;
+    object-fit: cover;
+}
+
+.prevBtn {
+    /* outline: 1px solid black; */
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    cursor: pointer;
+}
+
+.nextBtn {
+    /* outline: 1px solid black; */
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    cursor: pointer;
+}
+
+.nextBtn span,
+.prevBtn span {
+    display: block;
+    width: 3em;
+    height: 100%;
+    line-height: 4;
+    color: rgba(133, 133, 133, 0.267);
+    font-size: 4rem;
+    transition: .3s;
+}
+
+.nextBtn span:hover,
+.prevBtn span:hover {
+    color: rgba(133, 133, 133, 0.658);
+}

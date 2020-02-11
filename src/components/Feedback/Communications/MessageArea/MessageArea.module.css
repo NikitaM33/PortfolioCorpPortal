@@ -1,0 +1,13 @@
+.textElement{
+    grid-area: textElement;
+    /* outline: 2px solid red; */
+    display: grid;
+    grid-template-columns: 80% 20%;
+    grid-template-rows: 100%;
+    width: 30%;
+    margin: 3em auto;
+}
+
+.textElement textarea{
+    resize: none;
+}

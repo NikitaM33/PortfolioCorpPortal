@@ -1,0 +1,77 @@
+.orangeSquare{
+    position: relative;
+    width: 24em;
+    height: auto;
+    margin-top: -3.8em;
+    margin-left: 0;
+    padding: 2em;
+    color: #fff;
+    background: radial-gradient(at top, rgb(28, 58, 73), #11141b);
+    box-shadow: 15px 15px 10px #171B25;
+    border-top: 5px solid #FEA507;
+    border-radius: 0 0 4px 4px;
+    transition: 0.3s;
+}
+
+.orangeSquare:before{
+    position: absolute;
+    content: '';
+    top: -4px;
+    right: 0px;
+    width: 100%;
+    height: 5px;
+    background: linear-gradient(to left, rgb(185, 117, 0), #FFBB2E);
+    transition: 0.3s;
+}
+
+.orangeSquare:hover:before{
+    width: 0%;
+}
+
+.orangeSquare h1{
+    margin-top: 0em;
+    font-size: 3.4rem;
+    line-height: 3.8rem;
+}
+
+.orangeSquare p{
+    font-size: 1.1rem;
+    font-weight: 300;
+    line-height: 1.7rem;
+}
+
+@media(max-width: 1370px) {
+    .orangeSquare{
+        position: relative;
+        width: 21em;
+        height: auto;
+        margin-top: -2.8em;
+        margin-left: 0;
+        padding: 1em;
+        color: #fff;
+        background: radial-gradient(at top, rgb(28, 58, 73), #11141b);
+        box-shadow: 15px 15px 10px #171B25;
+        border-top: 5px solid #FEA507;
+        border-radius: 0 0 4px 4px;
+        transition: 0.3s;
+    }    
+}
+
+@media(max-width: 1200px) {
+    .wrapper {
+        grid-area: square;
+    }
+    
+    .orangeSquare{
+        position: relative;
+        width: 100%;
+        height: auto;
+        padding: 5em;
+        color: #fff;
+        background: radial-gradient(at top, rgb(28, 58, 73), #11141b);
+        box-shadow: 15px 15px 10px #171B25;
+        border-top: 5px solid #FEA507;
+        border-radius: 0 0 4px 4px;
+        transition: 0.3s;
+    } 
+}

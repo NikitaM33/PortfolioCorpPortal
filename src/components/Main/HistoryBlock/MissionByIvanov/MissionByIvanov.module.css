@@ -1,0 +1,43 @@
+.missionWrapper{
+    display: grid;
+    display: -ms-grid;
+    grid-area: ivanov;
+    -ms-grid-column: 1;
+    width: 90%;
+    margin-top: -3em;
+}
+
+.missionWrapper h1{
+    font-size: 2.5rem;
+    color: #FEA507;
+}
+
+.highlight{
+    -ms-grid-row: 2;
+    outline: 2px solid rgba(51, 51, 51, 0.205);
+    box-shadow: 5px 5px 10px #333;
+}
+
+.missionWrapper h2{
+    font-size: 2rem;
+    color: #7A7A82;
+}
+
+.missionWrapper p{
+    margin-top: 1em;
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 1.8rem;
+    color: #7A7A82;
+}
+
+@media(max-width: 1150px) {
+    .missionWrapper {
+        width: 100%;
+    }
+
+    .highlight {
+        width: 70%;
+        margin: 0 auto;
+    }
+}

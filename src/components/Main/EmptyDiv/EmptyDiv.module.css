@@ -1,0 +1,17 @@
+/* .addTop{
+    width: 100%;
+    height: 10em;
+    background: linear-gradient(to bottom, rgb(28, 58, 73), #11141b);
+    background: crimson;
+    transition: 0.5s;
+    display: grid;
+    grid-template-rows: 100%;
+    grid-template-columns: 20% 80%;
+    width: 100%;
+    padding: 10px 20px;
+    background: linear-gradient(to bottom, rgb(28, 58, 73), #11141b);
+    background: gray;
+    align-items: center;
+    z-index: 5;
+    opacity: 0;
+} */

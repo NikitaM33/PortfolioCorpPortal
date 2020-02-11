@@ -1,0 +1,56 @@
+.infoHeader{
+    display: grid;
+        display: -ms-grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+        -ms-grid-columns: 50% 50%;
+        -ms-grid-rows: 100%;
+    padding: 9em 0em 0em 3em;
+    background: rgba(254, 163, 7, 0.027);
+}
+
+.infoHeader h1{
+    color: #FEA507;
+}
+
+.infoHeader p {
+    font-size: 1.1rem;
+    font-weight: 300;
+    color: #7A7A82;
+}
+
+.grafic{
+    -ms-grid-column: 2;
+    margin-top: -4em;
+}
+
+.grafic img{
+    width: 100%;
+    height: 17em;
+}
+
+@media(max-width: 1050px) {
+    .infoHeader {
+        grid-template-columns: 100%;
+            -ms-grid-columns: 100%;
+        padding: 6em 0em 0em 3em;
+    }
+
+    .grafic img{
+        display: none;
+    }
+
+    .headerText {
+        text-align: center;
+    }
+}
+
+@media(max-width: 870px) {
+    .infoHeader h1 {
+        font-size: 1.5rem;
+    }
+
+    .infoHeader h3 {
+        font-size: 1.4rem;
+    }
+}

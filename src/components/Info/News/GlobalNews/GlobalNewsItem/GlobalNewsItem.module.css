@@ -1,0 +1,126 @@
+.GlobalNewsItemWrapper{
+    /* grid-area: gNewsItem; */
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 100%;
+}
+
+
+.newsWrapper{
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 5em;
+    color: #333;
+    text-decoration: none;
+    transition: 0.3s;
+    border: 2px solid #eaeaea;
+    box-shadow: 0 3px 20px rgb(13, 38, 51);
+}
+
+.newsWrapper:hover{
+    color: #FEA507;
+    text-decoration: none;
+    /* transform:translateY(-3px); */
+    /* box-shadow: 0 10px 20px rgb(13, 38, 51); */
+}
+
+.newsWrapper img{
+    width: 35%;
+    height: auto;
+    margin-left: 1.5em;
+    /* -ms-interpolation-mode: bicubic; */
+}
+
+.modalImg img{
+    width: 100%;
+}
+
+.GlobalNewsItemWrapper a:hover{
+    cursor: pointer;
+}
+
+
+.GlobalNewsItemWrapper a{
+    position: relative;
+    border-left: 5px solid #FEA507;
+    padding-left: 2em;
+}
+
+.GlobalNewsItemWrapper a:before{
+    content: '';
+    left: -5px;
+    bottom: 0;
+    position: absolute;
+    width: 5px;
+    height: 100%;
+    background: linear-gradient(to top, rgb(185, 117, 0), #FFBB2E);
+    transition: 0.3s;
+}
+
+.GlobalNewsItemWrapper a:hover:before{
+    height: 0%;
+}
+
+.newsBody{
+    width: 80%;
+}
+
+.newsBody h1{
+    color: rgba(27, 60, 139, 0.76);
+}
+
+.newspaperWrapper{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 100%;
+    padding: 7em 0em 3em 0em;
+    width: 51%;
+    margin: 0 auto;
+}
+
+.newspaperWrapper h1{
+    padding-bottom: 0.5em;
+    font-weight: bold;
+    color: rgba(27, 60, 139, 0.76);
+}
+
+.newspaperWrapper img{
+    width: 100%;
+    height: auto;
+}
+
+.newspaperWrapper p{
+    margin-top: 2em;
+    color: #333;
+}
+
+.backButton{
+    position: fixed;
+    top: 15em;
+    left: 3em;
+}
+
+.link {
+    margin-top: 1em;
+}
+
+@media(max-width: 1450px) {
+    .GlobalNewsItemWrapper a {
+        height: 15em;
+        overflow: hidden;
+    }
+
+    .globalItem {
+        height: 17em;
+    }
+}
+
+@media(max-width: 1000px) {
+    .newsBody {
+        width: 98%;
+    }
+
+    .GlobalNewsItemWrapper a img {
+        display: none;
+    }
+}

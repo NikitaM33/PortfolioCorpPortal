@@ -1,0 +1,70 @@
+.vacationWrapper{
+    /* outline: 2px solid red; */
+    position: relative;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    margin: 1em;
+    padding: 2em 1em 1em 1em;
+    background: #fff;
+    border-top: 5px solid #FEA507;
+    border-radius: 0 0 5px 5px;
+    box-shadow: 0 0px 20px rgb(38, 68, 138);
+    transition: 0.3s;
+}
+
+.vacationWrapper:before{
+    content: '';
+    top: -5px;
+    right: 0;
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    background: linear-gradient(to left, rgb(185, 117, 0), #FFBB2E);
+    transition: 0.3s;
+}
+
+.vacationWrapper:hover:before{
+    width: 0%;
+}
+
+.vacationWrapper:hover{
+    transform: translateY(-3px);
+    box-shadow: 0px 10px 20px rgb(38, 68, 138);
+}
+
+.vacationWrapper .iconDepartment svg{
+    width: 40%;
+    height: 20%;
+    color: rgba(38, 68, 138, 0.644);
+}
+
+.topString h4{
+    margin-top: 2em;
+}
+
+.topString .btn{
+    display: block;
+    margin-bottom: 2em;
+    padding: 8px 0px;
+    font-size: 1.1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    background: radial-gradient(at top, rgb(43, 116, 155), rgb(38, 68, 138));
+    border-radius: 50px;
+    text-align: center;
+    border: none;
+    box-shadow: 0 0 40px rgb(13, 38, 51);
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+
+.topString p{
+    margin-bottom: 2em;
+}
+
+.formContainer{
+    margin-top: 6em;
+}

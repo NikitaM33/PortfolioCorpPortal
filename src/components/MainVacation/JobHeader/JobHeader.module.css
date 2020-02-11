@@ -1,0 +1,30 @@
+.wrapper{
+    display: grid;
+    grid-template-columns: 30% 1fr 50%;
+    grid-template-rows: auto;
+}
+
+.jobHeader{
+    padding-top: 2em;
+}
+
+.jobHeader h1{
+    color: #FEA507;
+}
+
+.jobHeader p {
+    font-size: 1.1rem;
+    font-weight: 300;
+    color: #7A7A82
+}
+
+.headerImg{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    overflow: hidden;
+    height: 20em;
+}
+
+.headerImg img{
+    width: 100%;
+}

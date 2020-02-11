@@ -1,0 +1,9 @@
+.forMS{
+    -ms-grid-column: 2;
+}
+
+@media(max-width: 1000px) {
+    .forMS {
+        -ms-grid-column: 1;
+    }
+}

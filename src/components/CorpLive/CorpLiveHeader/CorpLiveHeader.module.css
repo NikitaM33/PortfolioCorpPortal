@@ -1,0 +1,42 @@
+.infoHeader{
+    display: grid;
+        display: -ms-grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 100%;
+        -ms-grid-columns: 50% 50%;
+        -ms-grid-rows: 100%;
+    margin: -2em -2em 0em -2em;
+    padding: 2em 0em 0em 2em;
+    /* background: rgba(28, 58, 73, 0.11); */
+    background: linear-gradient(to right, rgba(39, 81, 102, 0.13), rgba(73, 28, 28, 0.144));
+}
+
+.infoHeader h1{
+    color: #FEA507;
+}
+
+.infoHeader h4{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: rgb(13, 38, 51);
+}
+
+.infoHeader p {
+    font-size: 1.1rem;
+    font-weight: 300;
+    color: #7A7A82;
+}
+
+.grafic{
+    -ms-grid-column: 2;
+    height: 15em;
+    margin-top: -2em;
+    /* margin-right: -2em; */
+    /* background-image: url(../../../img/club.jpg); */
+    background-size: cover;
+}
+
+.grafic img{
+    width: 100%;
+    height: 17em;
+}

@@ -1,0 +1,118 @@
+/* .userAnnounsWrapper{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 100%;
+    padding: 2em 2em 3em 2em;
+} */
+
+.userAnnounsItem{
+    display: grid;
+    grid-template-columns: 11% 80%;
+    grid-template-rows: 100%;
+    margin-bottom: 2em;
+}
+
+.roundLeter{
+    border: 2px solid #FEA507;
+    width: 40px;
+    height: 38px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.roundLeter h1{
+    margin-top: 2px;
+}
+
+.userItem a{
+    color: #333;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.userItem a:hover{
+    color: #FEA507;
+}
+
+.userItem a:hover{
+    color: #FEA507;
+}
+
+.cardItem{
+    position: relative;
+    margin: 1em 1em 5em 1em;
+    box-shadow: 3px 6px 10px rgb(13, 38, 51); 
+}
+
+.cardItem:before{
+    content: '';
+    bottom: -5px;
+    right: 0;
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    background: linear-gradient(to left, rgb(185, 117, 0), #FFBB2E);
+    transition: 0.3s;
+}
+
+button, 
+button:active, 
+button:focus {
+    outline: none;
+}
+
+.cardItem button{
+    margin-right: 0.8em;
+    padding: 7px 18px;
+    font-size: 1.1rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    background: radial-gradient(at top, rgb(43, 116, 155), rgb(38, 68, 138));
+    border-radius: 50px;
+    border: none;
+    box-shadow: 0 0 40px rgb(13, 38, 51);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.cardItem button:hover{
+    box-shadow: 10px 10px 20px rgb(13, 38, 51);
+}
+
+/* .imgAnnouns{
+    grid-area: img;
+    outline: 2px solid red;
+    height: 10em;
+} */
+
+/* .roundLeter{
+    grid-area: roundLeter;
+    border: 2px solid #FEA507;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    margin-top: 4em;
+} */
+
+/* .roundLeter h1{
+    margin-top: 2px;
+} */
+
+/* .userItem{
+    grid-area: userItem;
+    margin-top: 4em;
+}
+
+.userItem a{
+    color: #333;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.userItem a:hover{
+    color: #FEA507;
+} */

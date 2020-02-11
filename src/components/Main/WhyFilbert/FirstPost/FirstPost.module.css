@@ -1,0 +1,9 @@
+.firstPostWrapper{
+    -ms-grid-column: 2;
+}
+
+@media(max-width: 1200px){
+    .firstPostWrapper {
+        grid-area: one;
+    }
+}

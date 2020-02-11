@@ -1,0 +1,36 @@
+.wrapper {
+    width: 8em;
+}
+
+.likeBox {
+    display: flex;
+    width: 100%;
+}
+
+.like,
+.dislike {
+    width: 18%;
+    margin-right: 1em;
+}
+
+.likeBtn {
+    width: 7em;
+    color: #fff;
+    background: radial-gradient(at top, rgb(43, 116, 155), rgb(38, 68, 138));
+    border-radius: 5px;
+    border: none;
+    opacity: 1;
+    transition: .3s ease;
+}
+
+.likeBtn:hover {
+    opacity: .8;
+}
+
+.likedBtn {
+    width: 7em;
+    color: #fff;
+    background: radial-gradient(at top, rgba(43, 116, 155, 0.582), rgba(38, 68, 138, 0.486));
+    border-radius: 5px;
+    border: none;
+}

@@ -1,0 +1,60 @@
+.wrapperPanel{
+    -ms-grid-column: 3;
+}
+
+.panel2{
+    position: relative;
+    margin: 3em 1em;
+    padding: 1.5em;
+    background: #fff;
+    border-top: 5px solid #FEA507;
+    border-radius: 0 0 5px 5px; 
+    box-shadow: 0 0px 20px rgb(38, 68, 138);
+    transition: 0.3s;
+}
+
+.panel2:hover{
+    transform: translateY(-3px);
+    box-shadow: 0px 10px 20px rgb(13, 38, 51);
+}
+
+.panel2:before{
+    content: '';
+    top: -5px;
+    right: 0;
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    background: linear-gradient(to left, rgb(185, 117, 0), #FFBB2E);
+    transition: 0.3s;
+}
+
+.panel2:hover:before{
+    width: 0%;
+}
+
+.panel2 h4{
+    margin: 0.4em 0;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: rgb(13, 38, 51);
+}
+
+.panel2 p{
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: 300;
+    color: #7A7A82;
+}
+
+@media(max-width: 1350px) {
+    .panel2 {
+        margin: 2em 2em 0em 2em;
+    }
+}
+
+@media(max-width: 1100px) {
+    .panel2 {
+        margin: 1em 2em 0em 0em;
+    }
+}

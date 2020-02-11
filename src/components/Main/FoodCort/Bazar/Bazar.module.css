@@ -1,0 +1,90 @@
+.bazar{
+    /* outline: 2px solid red; */
+    display: grid;
+    display: -ms-grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+    -ms-grid-columns: 50% 50%;
+    -ms-grid-rows: 100%;
+    margin-bottom: 12em;
+}
+
+.bazar .img1 {
+    width: 95%;
+    height: auto;
+    box-shadow: 0 10px 20px rgb(13, 38, 51);
+}
+
+.bazar .img2 {
+    display: none;
+}
+
+.bazarDescription{
+    -ms-grid-column: 2;
+    padding: 3em;
+}
+
+.bazarDescription h4{
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: rgb(38, 68, 138);
+}
+
+.bazarDescription b{
+    font-weight: 700;
+}
+
+.bazarDescription h2{
+    font-size: 2rem;
+    color: #FEA507;
+}
+
+.bazarDescription p{
+    font-size: 1.1rem;
+    font-weight: 300;
+    line-height: 1.8rem;
+    color: #7A7A82;
+}
+
+.bazarDescription .description{
+    color: #333333;
+}
+
+@media(max-width: 1100px) {
+    .bazar {
+        grid-template-columns: 100%;
+        grid-template-rows: 65% 35%;
+        margin-bottom: 24em;
+    }
+
+    .bazar .img1{
+        display: none;
+    }
+
+    .bazar .img2 {
+        display: block;
+        width: 100%;
+    }
+}
+
+@media(max-width: 1000px) {
+    .bazar {
+        grid-template-rows: 60% 40%;
+        margin-bottom: 20em;
+    }
+}
+
+@media(max-width: 900px) {
+    .bazar {
+        grid-template-rows: 55% 45%;
+        margin-bottom: 0em;
+    }
+}
+
+@media(max-width: 650px) {
+    .bazar {
+        grid-template-rows: 45% 55%;
+        margin-bottom: 0em;
+    }
+}

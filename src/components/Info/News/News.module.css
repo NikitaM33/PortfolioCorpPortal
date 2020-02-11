@@ -1,0 +1,9 @@
+.newsWrapper{
+    display: grid;
+        display: -ms-grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+        -ms-grid-columns: 100%;
+        -ms-grid-rows: auto;
+    background: rgba(254, 163, 7, 0.027);
+}

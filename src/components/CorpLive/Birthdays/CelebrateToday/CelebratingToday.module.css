@@ -1,0 +1,66 @@
+.congatulationTextHeader {
+    margin: 0em 0em 3em 0.3em;
+}
+
+.congatulationTextHeader h3 {
+    color: rgba(27, 60, 139, 0.76);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.wrapper {
+    position: relative;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    max-width: 47em;
+    height: 95%;
+    padding: 1em;
+    margin-right: 0.5em;
+    margin-bottom: 3em;
+}
+
+.wrapper:after {
+    position: absolute;
+    content: '';
+    top: 0;
+    bottom: 0;
+    width: 5px;
+    height: 100%;
+    background: linear-gradient(to top, rgb(185, 117, 0), #FFBB2E);
+    box-shadow: 5px 0px 16px #FFBB2E;
+}
+
+.wrapper h3 {
+    color: rgba(27, 60, 139, 0.76);
+}
+
+.wrapper h5 {
+    color: #FEA507;
+}
+
+.imgBox {
+    max-width: 13em;
+    max-height: 13em;
+    /* border-radius: 5px; */
+    overflow: hidden;
+}
+
+.imgBox img {
+    max-width: 100%;
+}
+
+.textBox {
+    margin-top: 0em;
+}
+
+.ifNoBirthDay {
+    margin-bottom: 3em;
+}
+
+.ifNoBirthDay h3 {
+    color: #ccc;
+}

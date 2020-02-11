@@ -1,0 +1,50 @@
+.missionBlock{
+    grid-area: mission;
+    display: grid;
+    display: -ms-grid;
+    grid-template-areas: 
+    "ivanov descr1 descr2"
+    "descr3 descr4 descr5";
+    grid-template-rows: 2fr 2fr;
+    grid-template-columns: 33% 33% 33%;
+    -ms-grid-rows: 2fr 2fr;
+    -ms-grid-columns: 33% 33% 33%;
+    background: #fff;
+    padding: 5em 2em 4em 2em;
+    text-align: center;
+}
+
+.missionBlock h2{
+    color: #353238;
+}
+
+@media(max-width: 1150px) {
+    .missionBlock {
+        grid-template-areas: 
+        "ivanov descr1"
+        "descr2 descr3"
+        "descr4 descr5";
+        grid-template-rows: 2fr 2fr 2fr;
+        grid-template-columns: 50% 50%;
+        gap: 2em;
+            -ms-grid-rows: 2fr 16px 2fr 16px 2fr;
+            -ms-grid-columns: 50% 50%;
+    }
+}
+
+@media(max-width: 1000px) {
+    .missionBlock {
+        grid-template-areas: 
+        "ivanov"
+        "descr1"
+        "descr2"
+        "descr3"
+        "descr4"
+        "descr5";
+        grid-template-rows: 2fr 2fr 2fr 2fr 2fr 2fr;
+        grid-template-columns: 100%;
+        gap: 2em;
+            -ms-grid-rows: 2fr 16px 2fr 16px 2fr 16px 2fr 16px 2fr 16px 2fr;
+            -ms-grid-columns: 100%;
+    }
+}

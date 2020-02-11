@@ -1,0 +1,21 @@
+.footer{
+    display: grid;
+    grid-template-columns: 32% 1fr 10%;
+    grid-template-rows: 100%;
+    padding: 2em 2em 2em 3em;
+    color: #aeaeae9f;
+    background: linear-gradient(to bottom, rgb(28, 58, 73), #11141b);
+    border-bottom: 5px solid #FFBB2E;
+    box-shadow: 0px -5px 30px rgb(13, 38, 51);
+}
+
+.filbert {
+    display: flex;
+    margin: 0;
+}
+
+.rights{
+    grid-column-start: 3;
+    grid-column-end: 6;
+    margin-left: 10%;
+}

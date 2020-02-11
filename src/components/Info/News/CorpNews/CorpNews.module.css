@@ -1,0 +1,23 @@
+.corpNewsWrapper{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    padding: 2em 2em 2em 2em;
+    /* outline: 2px solid red; */
+}
+
+.corpHead{
+    margin: 0 0 3em 0;
+    width: 50em;
+    height: auto;
+}
+
+/* .myClass{
+    width: 60em;
+    margin: 0 auto;
+} */
+
+.myClass a{
+    color: #333;
+    text-decoration: none;
+}

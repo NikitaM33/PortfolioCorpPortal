@@ -1,0 +1,8 @@
+.announsmentText{
+    grid-area: headText;
+    -ms-grid-column: 1;
+}
+
+.announsmentText h2{
+    color: #FEA507;
+}

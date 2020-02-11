@@ -1,0 +1,40 @@
+.welcomeWrapper{
+    grid-area: main;
+    display: grid;
+    display: -ms-grid;
+    grid-template:
+    "emptyDiv emptyDiv"
+    "welcomeWord carousel";
+    grid-template-rows: auto;
+    grid-template-columns: 50% 50%;
+    -ms-grid-rows: 10% 90%;
+    -ms-grid-columns: 50% 50%;
+    position: relative;
+    padding: 7em 2em 5em 2em;
+    background-image: url(../../img/fon-invis3.png);
+}
+
+.betaTest{
+    width: 100%;
+    margin-top: -2em;
+    color: red;
+}
+
+.prlx{
+    background-image: url(../../img/find.jpg);
+    background-blend-mode: overlay;
+    background-attachment: fixed;
+    background-size: cover;
+    height: auto;
+    padding-bottom: 5em;
+}
+
+@media(max-width: 1150px) {
+    .welcomeWrapper {
+        grid-template:
+        "emptyDiv"
+        "welcomeWord";
+        grid-template-columns: 100%;
+            -ms-grid-columns: 100%;
+    }
+}

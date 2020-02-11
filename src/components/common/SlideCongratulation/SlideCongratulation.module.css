@@ -1,0 +1,10 @@
+.congratulationCover img {
+    width: 100%;
+    cursor: pointer;
+}
+
+.slideDescr {
+    padding-top: 2em;
+    font-weight: bold;
+    color: rgba(27, 60, 139, 0.76);
+}

@@ -1,0 +1,9 @@
+.secondPostWrapper{
+    -ms-grid-column: 3;
+}
+
+@media(max-width: 1200px){
+    .secondPostWrapper {
+        grid-area: two;
+    }
+}

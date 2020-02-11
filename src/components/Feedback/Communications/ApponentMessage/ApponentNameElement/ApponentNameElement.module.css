@@ -1,0 +1,8 @@
+.nameElement{
+    grid-area: nameElement;
+}
+
+.nameElement h3{
+    display: grid;
+    justify-items: start;
+}

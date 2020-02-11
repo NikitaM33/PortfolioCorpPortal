@@ -1,0 +1,24 @@
+.tableWrapp{
+    width: 100%;
+    height: 100%;
+    padding: 0.5em;
+    text-align: center;
+    color: #fff;
+    background: radial-gradient(at top, rgba(28, 58, 73, 0.781), #222733);
+    box-shadow: 10px 10px 20px rgb(13, 38, 51);
+}
+
+.tableWrapp thead,
+.thead{
+    color: #FFBB2E;
+}
+
+.tableWrapp tbody th{
+    padding: 1em;
+    border-bottom: 2px solid #fff;
+}
+
+.tableWrapp tbody td{
+    border-bottom: 2px solid #fff;
+}
+

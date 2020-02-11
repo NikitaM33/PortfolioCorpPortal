@@ -1,0 +1,15 @@
+.appWrapper{
+  display: grid;
+  grid-template-areas:
+  "header header header";
+  grid-template-rows: 100%;
+  grid-template-columns: 100%;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+.waiting {
+  text-align: center;
+  padding-top: 7em;
+  padding-bottom: 2em;
+}

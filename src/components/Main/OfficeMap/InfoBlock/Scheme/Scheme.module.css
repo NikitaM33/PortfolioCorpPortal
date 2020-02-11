@@ -1,0 +1,33 @@
+.officeMap{
+    grid-area: map;
+    position: relative;
+    width: 90%;
+    margin: 2em auto;
+    text-align: center;
+    padding-top: 3em;
+}
+
+.officeMap img{
+    width: 100%;
+    margin-top: 0.3em;
+}
+
+.officeMap svg{
+    position: absolute;
+    padding-top: 3em;
+    top: 5px;
+    left: 0;
+    width: 100%;
+    height: auto;
+}
+
+.officeMap .part{
+    fill: rgb(43, 116, 155);
+    width: 100%;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.officeMap .part:hover{
+    opacity: 0.5;
+}

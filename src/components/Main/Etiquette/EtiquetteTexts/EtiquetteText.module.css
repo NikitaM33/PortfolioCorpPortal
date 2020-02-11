@@ -1,0 +1,64 @@
+.etiquetteText{
+    -ms-grid-column: 1;
+    width: 85%;
+    margin-top: -2em;
+}
+
+.etiquetteText h4{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: rgb(13, 38, 51);
+}
+
+.etiquetteText h2{
+    font-size: 1.8rem;
+    line-height: 1.5;
+    color: #FEA507;
+}
+
+.batn,
+.lilBatn, 
+.batn:active, 
+.lilBatn:active, 
+.batn:focus,
+.lilBatn:focus {
+    outline: none;
+}
+
+.etiquetteText .batn{
+    display: block;
+    width: 173px;
+    padding: 15px 30px;
+    margin-top: 2em;
+    font-size: 1.1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    background: radial-gradient(at top, rgb(43, 116, 155), rgb(38, 68, 138));
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0 0 40px rgb(38, 68, 138);
+    transition: 0.3s
+}
+
+.etiquetteText button:hover{
+    box-shadow: 10px 10px 20px rgb(13, 38, 51);
+}
+
+.etiquetteText .lilBatn {
+    width: 19%;
+    padding: 7px 3px;
+    /* font-size: 1.1rem; */
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    background: radial-gradient(at top, rgb(43, 116, 155), rgb(38, 68, 138));
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0 0 15px rgb(13, 38, 51);
+    transition: 0.3s
+}
+
+.etiquetteText .lilBatn:hover {
+    box-shadow: 10px 10px 20px rgb(13, 38, 51);
+}

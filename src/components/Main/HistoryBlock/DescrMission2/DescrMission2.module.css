@@ -1,0 +1,58 @@
+.DescrMission2Wrapper{
+    display: grid;
+    grid-area: descr2;
+    -ms-grid-column: 3;
+    width: 100%;
+}
+
+.iconStyle{
+    margin: 0 auto;
+    font-size: 4rem;
+    color: #FFBB2E;
+}
+
+.DescrMission2Wrapper p{
+    margin-top: 0;
+    font-size: 1.1rem;
+    font-weight: 300;
+    line-height: 1.8rem;
+    color: #7A7A82;
+}
+
+.batn, 
+.batn:active, 
+.batn:focus {
+    outline: none;
+}
+
+.batn{
+    margin-right: 0.5em;
+    padding: 15px 33px;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    background: linear-gradient(to left, rgb(185, 117, 0), #FFBB2E);
+    border-radius: 50px;
+    border: none;
+    box-shadow: 0 0 40px rgb(148, 94, 0);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.batn a{
+    display: block;
+    margin-right: 0.5em;
+    text-decoration: none;
+    color: #fff;
+}
+
+.batn:hover{
+    box-shadow: 10px 10px 20px rgb(148, 94, 0);
+}
+
+@media(max-width: 1150px) {
+    .DescrMission2Wrapper {
+        -ms-grid-column: 1;
+    }
+}

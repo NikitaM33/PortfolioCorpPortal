@@ -1,0 +1,41 @@
+.container{
+    /* outline: 1px solid red; */
+    display: grid;
+    grid-template-columns: 15% 1fr 15%;
+    grid-template-rows: auto;
+    margin: 0em -2em;
+}
+
+.wrapper {
+    grid-column-start: 2;
+    display: grid;
+    grid-template-columns: 48% 1fr 50%;
+    grid-template-rows: auto;
+    margin: 3em 2em 1em 2em;
+}
+
+.wrapper h1 {
+    color: #FEA507;
+}
+
+.wrapper h4{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: rgb(13, 38, 51);
+}
+
+.wrapper p {
+    font-size: 1.1rem;
+    font-weight: 300;
+    color: #7A7A82;
+}
+
+.slideContainer {
+    grid-column-start: 3;
+}
+
+.videoWrapper {
+    grid-column-start: 3;
+    width: 100%;
+    box-shadow: 0px 3px 20px rgb(13, 38, 51);
+}

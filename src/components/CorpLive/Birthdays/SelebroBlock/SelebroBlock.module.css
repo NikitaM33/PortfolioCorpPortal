@@ -1,0 +1,141 @@
+.wrapper{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 25% 25% 5% 45%;
+    padding: 2em 2em 3em 2em;
+    text-align: center;
+    margin-left: -3em;
+    background: #000;
+}
+
+.darkBox,
+.darkBox2{
+    /* width: 90%; */
+    width: fit-content;
+    height: fit-content;
+    margin: 2em;
+    padding: 1.5em;
+    text-align: center;
+    background:  rgba(255, 255, 255, 0.349);
+    border-radius: 10px;
+}
+
+.darkBox h2,
+.darkBox2 h2 {
+    font-size: 2rem;
+    font-weight: 400;
+    color: #fff;
+    /* margin: 0em 0em; */
+}
+
+.darkBox h3,
+.darkBox2 h3{
+    font-weight: 300;
+    margin-top: 0.5em;
+    color: #fff; 
+}
+
+.darkBox span,
+.darkBox2 span{
+    font-size: 4rem;
+    color: #FEA507;
+}
+
+.valuminousText{
+    grid-column-start: 4;
+    /* width: 17em; */
+    font-size: 4rem;
+    font-weight: bold;
+    text-align: start;
+    color: #FEA507;
+}
+
+.valuminousText span{
+    font-weight: 300;
+    color: #eaeaea;
+}
+
+@media(max-width: 1650px) {
+    .wrapper {
+        grid-template-rows: auto;
+        grid-template-columns: 23% 23% 7% 45%;
+    }
+
+    .valuminousText {
+        font-size: 4rem;
+    }
+}
+
+@media(max-width: 1250px) {
+    .wrapper {
+        grid-template-columns: 50% 50%;
+        grid-template-areas: 
+        "darkBox darkBox2"
+        "valuminousText valuminousText";
+    }
+
+    .darkBox{
+        grid-area: darkBox;
+        /* display: flex; */
+        /* flex-wrap: nowrap; */
+        width: fit-content;
+        height: 17em;
+        margin: 1em;
+        padding: 0.5em;
+        text-align: center;
+        background:  rgba(255, 255, 255, 0.349);
+        border-radius: 10px;
+    }
+
+    .darkBox2{
+        grid-area: darkBox2;
+        /* display: flex; */
+        /* flex-wrap: nowrap; */
+        width: fit-content;
+        height: 17em;
+        margin: 1em;
+        padding: 0.5em;
+        text-align: center;
+        background:  rgba(255, 255, 255, 0.349);
+        border-radius: 10px;
+    }
+
+    .valuminousText {
+        grid-area: valuminousText;
+        grid-column-start: 1;
+        grid-row-start: 2;
+        font-size: 3rem;
+    }
+}
+
+@media(max-width: 850px) {
+    .wrapper {
+        grid-template-columns: 100%;
+        grid-template-areas: 
+        "darkBox"
+        "darkBox2"
+        "valuminousText";
+    }
+
+    .darkBox{
+        grid-area: darkBox;
+        width: fit-content;
+        height: fit-content;
+        margin: 1em;
+        padding: 0.5em;
+        text-align: center;
+        background:  rgba(255, 255, 255, 0.349);
+        border-radius: 10px;
+    }
+
+    .darkBox2{
+        grid-area: darkBox2;
+        height: fit-content;
+    }
+
+    .valuminousText {
+        grid-area: valuminousText;
+        grid-row-start: 3;
+        font-size: 3rem;
+    }
+}

@@ -1,0 +1,78 @@
+.PostTextWrapper{
+    display: flex;
+    justify-content: space-around;
+    margin: 1em 3em 2em 3em;
+}
+
+.PostTextWrapper .point{
+    width: 10%;
+    height: 10%;
+    font-size: 2rem;
+    text-align: center;
+    vertical-align: center;
+    color: #fff;
+    background: linear-gradient(to left, rgb(185, 117, 0), #FFBB2E);
+    border-radius: 50%;
+    box-shadow: 10px 10px 50px rgb(148, 94, 0);
+}
+
+.PostTextWrapper .historyText{
+    height: 8em;
+    width: 20em;
+}
+
+.PostTextWrapper .historyText h3{
+    margin: 0;
+    font-size: 1.8rem;
+    color: rgb(13, 38, 51);
+}
+
+.PostTextWrapper .historyText p{
+    font-size: 1rem;
+    font-weight: 300;
+    color: #7A7A82;
+}
+
+@media(max-width: 1600px) {
+    .PostTextWrapper {
+        margin: 0em 2em 1em 3em;
+    }
+}
+
+@media(max-width: 1500px) {
+    .PostTextWrapper {
+        margin: 0em 1em 0.5em 1em;
+    }
+}
+
+@media(max-width: 1200px) {
+    .PostTextWrapper .point{
+        font-size: 2rem;
+    }
+}
+
+@media(max-width: 950px) {
+    .PostTextWrapper .point {
+        font-size: 1.5rem;
+    }
+}
+
+@media(max-width: 850px) {
+    .PostTextWrapper .historyText{
+        height: 8em;
+        width: 15em;
+    }
+}
+
+@media(max-width: 670px) {
+    .PostTextWrapper .historyText{
+        height: 12em;
+        width: 13em;
+    }
+}
+
+@media(max-width: 670px) {
+    .PostTextWrapper .point {
+        display: none;
+    }
+}

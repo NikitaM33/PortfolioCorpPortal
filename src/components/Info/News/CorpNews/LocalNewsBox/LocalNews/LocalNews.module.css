@@ -1,0 +1,17 @@
+.localNews{
+   margin: 1em;
+}
+
+.bigImg{
+    outline: 2px solid red;
+    height: 25em;
+}
+
+.news{
+    width: 90%;
+}
+
+.news a:hover{
+    color: #26448a;
+    text-decoration: underline;
+}
