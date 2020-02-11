@@ -8,12 +8,12 @@ self.__precacheManifest = [
     "url": "/PortfolioCorpPortal/static/css/0.ca7bb54f.chunk.css"
   },
   {
-    "revision": "9e0a56d7cb5f01b6ad96",
+    "revision": "017d53c0e5e194f7d124",
     "url": "/PortfolioCorpPortal/static/css/main.12cf6fae.chunk.css"
   },
   {
-    "revision": "9e0a56d7cb5f01b6ad96",
-    "url": "/PortfolioCorpPortal/static/js/main.9e0a56d7.chunk.js"
+    "revision": "017d53c0e5e194f7d124",
+    "url": "/PortfolioCorpPortal/static/js/main.017d53c0.chunk.js"
   },
   {
     "revision": "bf097b8dee48eac1c7b8",
@@ -44,8 +44,8 @@ self.__precacheManifest = [
     "url": "/PortfolioCorpPortal/static/js/5.c309113c.chunk.js"
   },
   {
-    "revision": "a950e0cc78e1168b58fe",
-    "url": "/PortfolioCorpPortal/static/js/6.a950e0cc.chunk.js"
+    "revision": "f1ef9248560c0f55d1b8",
+    "url": "/PortfolioCorpPortal/static/js/6.f1ef9248.chunk.js"
   },
   {
     "revision": "630956ab0a10704a8ed7",
@@ -248,7 +248,7 @@ self.__precacheManifest = [
     "url": "/PortfolioCorpPortal/static/media/empresas.aaa3130d.jpg"
   },
   {
-    "revision": "542a1fc6539897bc191b57cf278f6a2f",
+    "revision": "a08de3d3594bca87a3779ff583889e42",
     "url": "/PortfolioCorpPortal/index.html"
   }
 ];
